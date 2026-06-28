@@ -1,0 +1,25 @@
+# Core DB / ORM
+sqlalchemy==2.0.30
+
+# Auth
+# FIX: bcrypt 4.1.x rompe passlib 1.7.4 (AttributeError: __about__).
+# Se fija bcrypt a 4.0.1 que es la última versión compatible con passlib.
+passlib==1.7.4
+bcrypt==4.0.1
+
+# QR
+qrcode[pil]==7.4.2
+pyzbar==0.1.9
+
+# Cámara
+opencv-python==4.9.0.80
+
+# Imágenes
+Pillow==10.3.0
+
+# Reportes opcionales
+openpyxl==3.1.2
+reportlab==4.1.0
+
+# Flet
+flet==0.27.4
